@@ -19,7 +19,7 @@ const MainLayout = ({ children }) => {
             <Link
             key={link.id}
             href={link.route}
-            className={`bg-slate-800 text-white w-24 text-center rounded-lg p-3 ml-2 mt-2 inline-block ${pathName === 'learn-nextjs-nine-ruddy.vercel.app/about-us' ? 'bg-red-500': ''}`}
+            className={`bg-slate-800 text-white w-24 text-center rounded-lg p-3 ml-2 mt-2 inline-block ${pathName === link.route ? 'bg-red-500': ''}`}
           >
             {link.name}
           </Link>
