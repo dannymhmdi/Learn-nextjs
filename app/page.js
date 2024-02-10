@@ -38,12 +38,7 @@ export default function Home() {
       >
         Dashboard
       </Link>
-      <Link
-        href={"/login"}
-        className="bg-slate-800 text-white w-24 text-center rounded-lg p-3 ml-2 mt-2 inline-block"
-      >
-        Login
-      </Link>
+   
     </>
   );
 }
